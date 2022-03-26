@@ -8,7 +8,7 @@
 signs = ['.', ',', '?', '!', ':', ';', '~', '-', '«', '»', '—']
 EOS = ['.', '?', '!', '~', '-']
 
-with open('random_text', encoding='utf-8') as f:
+with open('random_text.txt', encoding='utf-8') as f:
 
     text = f.read()
     lines = text.split('\n')
